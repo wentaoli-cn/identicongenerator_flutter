@@ -59,6 +59,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Identicon Generator`
+  String get appName {
+    return Intl.message(
+      'Identicon Generator',
+      name: 'appName',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
